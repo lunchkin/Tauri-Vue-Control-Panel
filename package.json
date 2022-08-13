@@ -7,17 +7,25 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "test": "vitest run --coverage"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.2",
+    "bulma": "^0.9.4",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
     "@vitejs/plugin-vue": "^3.0.2",
+    "c8": "^7.12.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.3.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.6",
+    "vitest": "^0.21.1",
     "vue-tsc": "^0.39.5"
   }
 }
