@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ScriptRunner />
     <a
       href="https://vitejs.dev"
       target="_blank"
@@ -28,6 +29,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from "./components/HelloWorld.vue";
+import ScriptRunner from "./pages/ScriptRunner.vue";
 </script>
 
 <style scoped>
