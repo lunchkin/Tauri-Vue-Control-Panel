@@ -21,7 +21,7 @@
     "rules": {
         "indent": [
             "error",
-            2
+            "tab"
         ],
         "quotes": [
             "error",
@@ -34,6 +34,17 @@
         "eol-last": [
             "error",
             "always"
+        ],
+        "vue/html-indent": [
+            "error",
+            "tab"
+        ],
+        "vue/component-api-style": [
+            "error",
+            [
+                "script-setup",
+                "composition"
+            ]
         ]
     }
 }
